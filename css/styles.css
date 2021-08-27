@@ -184,23 +184,7 @@ margin-right: 93px;
         display: flex;
         color:var(title-text-color); 
       }
-      /* .filter-item{
-        color:var(title-text-color);
-      } */
-      
-        /* .filter-item{
-            
-            margin-top: 94px;
-            margin-bottom: 94px;
-            margin-right: 8px;
-          
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.62;
-            letter-spacing: 0.03em;
-            color:var(title-text-color);
-            
-         } */
+     
          .filter-item:not(:last-child){
           margin-right: 8px; 
          }
