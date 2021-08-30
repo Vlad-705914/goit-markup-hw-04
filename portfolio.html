@@ -19,34 +19,42 @@
        
        
 
-      
        <header class="header">
         <div class=" container main-header">  
         <nav class="header-items">
-    
+        
             <a lang="en" class="header-logo link" href="">Web<span class="header-logo-link">Studio</span></a>
-             
-          <ul class="header-list list">
+        
+          <ul class="header-list ">
             <li class="header-item">
-              <a href="./index.html" class="header-link link">Студия</a>
+              <!-- Удалил link не работает подсветка ховера и карент -->
+              <a href="./index.html" class="header-link current">Студия</a>
             </li>
             <li class="header-item">
-              <a href="" class="header-link link">Портфолио</a>
+              <a href="./portfolio.html" class="header-link link">Портфолио</a>
             </li>
             <li class="header-item">
             
-              <a href="" class="header-link link">Контакты<a>
+              <a href="" class="header-link link">Контакты</a>
             </li>
-          </ul>
+           </ul> 
         
         </nav>
-      <ul class="contacs list">
+      <ul class="contacs">
           <li class="header-contacs">
-            <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
+           
+            <a class="mail-link link" href="mailto:info@devstudio.com"> 
+               <svg class=" mail-icon" width="16"height="12">
+              <use href="./images/sprite.svg#icon-envelope-1-1"></use> 
+            </svg>info@devstudio.com</a>
+             </li>
           <li class="header-contacs">
-            <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
+            
+              <a class="tel-link link" href="tel:+380961111111"> 
+                <svg class=" phone-icon" width="16"height="16">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>+38 096 111 11 11</a>
+           </li>
         </ul>
       </div>
       </header>
@@ -220,31 +228,75 @@
         <!--footer-->
        
        
-        <section class="section-footer">
-         
-          <footer class="footer">
-            <div class="container main-footer">
-              <div class="logo-studio">
-            <a lang="en" class="footer-logo link " href="">Web<span class="footer-logo-link">Studio</span></a>
-           </div>
-           <address>
-            <ul class="footer-list">
-              <li class="footer-item">
-                 <a class="footer-link-adress" href="https://goo.gl/maps/Fyau3RTndr1kcrQs9"  target="_blank" rel ="noopener noreferren">г. Киев, пр-т Леси Украинки, 26</a>
-               </li>
-               <li class="footer-item">
-                 <a  class="footer-link link" href="mailto:info@example.com">info@example.com</a>
-               </li>
-               <li class="footer-item">
-                 <a class="footer-link link"  href="tel:+380991111111">+38 099 111 11 11</a>
-               </li>
-             </ul>
-           </address>
+        <footer class="footer">
+          <div class="container">
+         <div class="footer-content">
+            <div> 
+          <div class="logo-studio">
+          <a lang="en" class="footer-logo link " href="">Web<span class="footer-logo-link">Studio</span></a>
+         </div>
+         <address>
+          <ul class="footer-list">
+            <li class="footer-item">
+               <a class="footer-link-adress" href="https://goo.gl/maps/Fyau3RTndr1kcrQs9"  target="_blank" rel ="noopener noreferren">г. Киев, пр-т Леси Украинки, 26</a>
+             </li>
+             <li class="footer-item">
+               <a  class="footer-link link" href="mailto:info@example.com">info@example.com</a>
+             </li>
+             <li class="footer-item">
+               <a class="footer-link link"  href="tel:+380991111111">+38 099 111 11 11</a>
+             </li>
+           </ul>
+          </address>
           </div>
-         </footer>
-        
-         </section>
- 
+           
+          <!-- FOOTER-SOCIALS -->
+         <div class="social-footer">
+           <h3 class="social-title">присоединяйтесь</h3>
+         
+           <ul class="footer-social list socials-list">
+              <li class="socials-item">
+              <a href="" class="socials-link link">
+                <svg class="socials-icon" width="44"height="44">
+                  <use href="./images/sprite.svg#icon-instagram-2-2-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-link link">
+               
+                <svg class="socials-icon" width="44"height="44">
+                  <use href="./images/sprite.svg#icon-twitter-1-2-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials-item">
+              <a href="" class="socials-link link">
+               
+                <svg class="socials-icon" width="44"height="44">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials-item">
+              <a href="" class="socials-links link">
+               
+                </svg>
+                <svg class="socials-icon" width="44"height="44">
+                  <use href="./images/sprite.svg#icon-linkedin-1-2-1"></use>
+                </svg>
+              </a>
+            </li>
+           
+          </ul>
+         </div>
+        </div>
+        </div>
+       </footer>
+      
+      
   
 
 </body>
