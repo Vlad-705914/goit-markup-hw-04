@@ -231,13 +231,15 @@ margin-right:30px;
 
 
           .portfolio {                
-          display: flex;
+          margin-left:-30px;
+         margin-top: -30px; 
+         display: flex;
          flex-wrap: wrap;
-         margin-left:-30px;
-         margin-top: -30px;  
           }
-           .portfolio-items{
-
+          
+         
+          .portfolio-items{
+          
             flex-basis:calc(100% / 3 -30px);
             margin-left:30px;
             margin-top: 30px;  
