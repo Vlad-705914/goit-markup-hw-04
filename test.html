@@ -1,286 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
-<link rel="stylesheet" href="./css/styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
-</head>
-<!-- <body>  -->
-       <!--header-->
-       
-       
-       <svg width="400" height="300" style="outline: 1px solid black;">
-        <rect
-          width="250"
-          height="150"
-          fill="tomato"
-          stroke="black"
-          stroke-width="4"
-          x="20"
-          y="20"
-          rx="40"
-        />
-      </svg>
+  </head>
+  <body>
+    <!--header-->
 
-      
-       <header class="header">
-        <div class=" container main-header">  
-        <nav class="header-items">
-    
-            <a lang="en" class="header-logo link" href="">Web<span class="header-logo-link">Studio</span></a>
-             
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link">Студия</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Портфолио</a>
-            </li>
-            <li class="header-item">
-            
-              <a href="" class="header-link link">Контакты<a>
-            </li>
-          </ul>
-        
-        </nav>
-      <ul class="contacs list">
-          <li class="header-contacs">
-            <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="header-contacs">
-            <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-     <!-- ИКОНКИ ПРИ ХОВЕРЕ -->
-     
+    <!-- <div class="wraper">
+      <div class="contain">
+        <div class="box tranlete">tranlete</div>
+        <div class="box rotare"><span>rotare</span></div>
+
+        <div class="box scale">1</div>
+
+        <div class="box skill">2</div>
       </div>
-      </header>
-      <ul class="list">
-        <li class="list-item">
-          <a href="" class="list-link">Home</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="list-link">Portfolio</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="list-link">Team</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="list-link">About</a>
-        </li>
-      </ul>
-        
-       
-       
-       <!-- PORTFOLIO -->
-        
-        
-       <main>
-        <section class="section-portfolio">
-          <div class="container">
-      
-          <h1 hidden>Портфолио</h1>
+    </div> -->
+    <!-- <div class="wrapper">
+      <div class="content">
+        <div class="content-circle"></div>
+      </div>
+    </div> -->
+    <!-- 
+    <button class="btn">Подписаться</button>
+    <a href="index.html">back of main</a> -->
+    <button class="hero-button" type="button" data-modal-open>
+      Заказать услугу
+    </button>
 
-          <ul class="filter-list">
-            <li class="filter-item"><button class="filter-button filter-button1" type="button">Все</button></li>
-            <li class="filter-item"><button class="filter-button filter-button2" type="button">Веб-сайты</button></li>
-            <li class="filter-item"><button class="filter-button filter-button3" type="button">Приложения</button></li>
-            <li class="filter-item"><button class="filter-button filter-button4" type="button">Дизайн</button></li> 
-            <li class="filter-item"><button class="filter-button filter-button5" type="button">Маркетинг</button></li> 
-          </ul> 
-
-          
-         <!-- <div class="container"></div> -->
-          <ul class="portfolio">
-            
-            <li class="portfolio-items ">
-              <article class="cards">
-                <div class="cards-thumb">
-              <img src="./images/picture/team.jpg" width="370"  alt="Команда разработчиков">
-               </div>
-              <div class="portfolio-content">
-               <h2 class="portfolio-title">Технокряк</h2>
-               <p class="portfolio-text">Веб-сайт</p>
-              </div>
-              </article>
-             </li>
-            
-            <li class="portfolio-items">
-              <article class="cards">
-             <div class="cards-thumb">  
-              <img src="./images/picture/bascketbols.jpg" width="370" alt="Баскетболисты">
-            </div>
-            <div class="portfolio-content">
-              <h2 class="portfolio-title" lang="en" >Постер New Orlean vs Golden Star</h2>
-               <p class="portfolio-text">Дизайн</p>
-              </div>
-            </article>
-            </li>
-            
-            <li class="portfolio-items ">
-              <article class="cards">
-                <div class="cards-thumb">
-                <img src="./images/picture/seafood.jpg" width="370" alt="Логотип ресторана">
-              </div>
-              <div class="portfolio-content">
-              <h2  class="portfolio-title" lang="en" >Ресторан Seafood</h2>
-             <p class="portfolio-text">Приложение</p>
-            </div>
-            </article>
-            </li>
-           
-            <li class="portfolio-items">
-              <article class="cards">
-                <div class="cards-thumb">
-                <img src="./images/picture/headphones.jpg" width="370" alt="Наушники">
-              </div>
-              <div class="portfolio-content">
-              <h2 class="portfolio-title" lang="en" >Проект Prime</h2>
-             <p class="portfolio-text">Маркетинг</p>
-            </div>
-          </article>
-          </li>
-            
-            <li class="portfolio-items">
-              <article class="cards">
-                <div class="cards-thumb">
-                <img src="./images/picture/boxes.jpg" width="370" alt="Боксы">
-              </div>
-              <div class="portfolio-content">
-              <h2 class="portfolio-title" lang="en" >Проект Boxes</h2>
-             <p class="portfolio-text" >Приложение</p>
-            </div>
-          </article>
-          </li>
-            
-            <li class="portfolio-items">
-              <article class="cards">
-              <div class="cards-thumb">
-              <img src="./images/picture/monitor.jpg" width="370" alt="Монитор">
-            </div>
-            <div class="portfolio-content"> 
-            <h2 class="portfolio-title" lang="en">Inspiration has no Borders</h2>
-             <p class="portfolio-text">Веб-сайт</p>
-            </div>
-          </article>
-          </li>
-            
-            <li class="portfolio-items">
-              <article class="cards">
-                <div class="cards-thumb">
-              <img src="./images/picture/magazine.jpg" width="370" alt="Постер">
-              </div>
-              <div class="portfolio-content">
-              <h2 class="portfolio-title" lang="en">Издание Limited Edition</h2>
-             <p class="portfolio-text">Дизайн</p>
-            </div>
-          </article>
-          </li>
-            
-            <li class="portfolio-items">
-              <article class="cards">
-                <div class="cards-thumb">
-              <img src="./images/picture/label.jpg" width="370" alt="Ярлык">
-               </div>
-               <div class="portfolio-content">
-               <h2 class="portfolio-title" lang="en" >Проект LAB</h2>
-             <p class="portfolio-text">Маркетинг</p>
-            </div>
-             </article>
-            </li>
-           
-            <li class="portfolio-items">
-              <article class="cards">
-                <div class="cards-thumb">
-              <img src="./images/picture/laptop2.jpg" width="370" alt="ноутбук">
-            </div>
-              <div class="portfolio-content">
-              <h2 class="portfolio-title" lang="en">Growing Business</h2>
-             <p class="portfolio-text">Приложение</p>
-            </div>
-          </article>
-            </li>
-          </ul>
-        <!-- </div> -->
-        </div> 
-        </section>
-      </main>
-      
-        <!--footer-->
-       
-       
-        <section class="section-footer">
-         
-          <footer class="footer">
-            <div class="container main-footer">
-              <div class="logo-studio">
-            <a lang="en" class="footer-logo link " href="">Web<span class="footer-logo-link">Studio</span></a>
-           </div>
-           <address>
-            <ul class="footer-list">
-              <li class="footer-item">
-                 <a class="footer-link link" href="https://goo.gl/maps/Fyau3RTndr1kcrQs9"  target="_blank" rel ="noopener noreferren">г. Киев, пр-т Леси Украинки, 26</a>
-               </li>
-               <li class="footer-item">
-                 <a  class="footer-link link" href="mailto:info@example.com">info@example.com</a>
-               </li>
-               <li class="footer-item">
-                 <a class="footer-link link"  href="tel:+380991111111">+38 099 111 11 11</a>
-               </li>
-             </ul>
-           </address>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-open" type="button" data-modal-close>
+          <svg class="modal-icon">
+            <use href="./images/sprite.svg#icon-Vector-close"></use>
+          </svg>
+        </button>
+        <form action="#" class="modal-form">
+          <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+          <div class="modal-form-field">
+            <label for="input-name" class="modal-form-label">Имя</label>
+            <span class="input-wrap">
+              <input
+                type="text"
+                id="input-name"
+                class="modal-form-input"
+                placeholder=" "
+              />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </span>
           </div>
-         </footer>
-        
-         </section>
-         <div class="container">
-          <ul class="card-set">
-            <li class="item">
-             
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-            </li>
-        
-            <li class="item">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-            </li>
-        
-            <li class="item">
-           <h2>Lorem ipsum dolor sit amet.</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-            </li>
-        <li class="optim">
-          <a href="">
 
-         </a>
-        </li>
-           
-            <li class="item">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-            </li>
-        
-            <li class="item">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-            </li>
-        
-            <li class="item">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque excepturi facilis molestias eius earum at officia velit reprehenderit veritatis.</p>
-                
-                  <li></li>
-  
+          <div class="modal-form-field">
+            <label for="input-tel" class="modal-form-label">Телефон</label>
+            <span class="input-wrap">
+              <input
+                type="text"
+                id="input-tel"
+                class="modal-form-input"
+                placeholder=" "
+              />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </span>
+          </div>
 
-</body>
+          <div class="modal-form-field">
+            <label for="input-email" class="modal-form-label">Почта</label>
+            <span class="input-wrap">
+              <input
+                type="text"
+                id="input-email"
+                class="modal-form-input"
+                placeholder=" "
+              />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="modal-comments-field">
+            <label for="comment" class="modal-form-label">Комментарий</label>
+            <textarea
+              name="modal-coment"
+              id="comment"
+              placeholder="Введите текст"
+              class="modal-comment"
+            ></textarea>
+          </div>
+
+          <div class="modal-check-field">
+            <input
+              type="checkbox"
+              id="check"
+              name="policy"
+              class="visually-hidden checkbox"
+            />
+            <label for="check" class="check-label"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="" class="label-item">Условия договора</a></label
+            >
+          </div>
+          <button class="hero-button" type="submit" data-modal-open>
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <form class="js-speaker-form">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <br />
+      <label for="tel">Name</label>
+      <input type="text" name="tel" id="tel" />
+      <br />
+      <label for="mail">Name</label>
+      <input type="email" name="mail" id="mail" />
+      <br />
+
+      <div role="group">
+        <input type="checkbox" name="topic" value="html" id="html" />
+        <label for="html">for HTML</label>
+        <input type="checkbox" name="topic" value="css" id="css" />
+        <label for="css">for CSS</label>
+      </div>
+      <div role="group">
+        <input type="radio" name="subjun" value="junior" id="junior" />
+        <label for="junior">junior</label>
+        <input type="radio" name="subjun" value="middle" id="middle" />
+        <label for="middle">middle</label>
+        <input type="radio" name="subjun" value="senior" id="senior" />
+        <label for="senior">senior</label>
+      </div>
+      <label for="time">Speacer time</label>
+      <input type="datetime-local" name="time" id="" />
+      <button type="submit">Open form</button>
+    </form> -->
+
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
