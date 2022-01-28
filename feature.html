@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-
-   <!-- <button class="hero-button" type="button" data-modal-open>
+  <body>
+    <!-- <button class="hero-button" type="button" data-modal-open>
       Заказать услугу
     </button>
 <div class="backdrop is-hidden" data-modal >
@@ -87,69 +87,88 @@
 
     </div>
     </div> -->
-    
-<form action="#" class="form">
-  <div class="fofm-field">
-  <label for="name" >Name</label>
-  <input type="text" name="name" >
-</div>
+    <a href="./index.html">Revers on own</a>
+    <form action="" class="form">
+      <div class="form-fiel">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-inpu"
+          placeholder=" "
+        />
+        <label for="name" class="form-labe">Name</label>
+        <svg class="for-icon" width="20" height="20">
+          <use href="images/sprite.svg#icon-phone-black-18dp-1"></use>
+        </svg>
+      </div>
 
-<div class="fofm-field">
-<!-- placeholder Это подсказка до того момента пока чтр то не ввели 
-к нему нелься ничего применить кроме св-ств текста-->
-<label for="tel">Telephone</label>
-  <input type="text" name="tel" id="tel"  placeholder="Michael Michael">
-</div>
-<div class="fofm-field">
+      <div class="form-fiel">
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          class="form-inpu"
+          placeholder=" "
+        />
+        <label for="mail" class="form-labe">Email</label>
+        <span class="for-ico"></span>
+      </div>
+      <div class="form-fiel">
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          class="form-inpu"
+          placeholder=" "
+        />
+        <label for="mail" class="form-labe">Email</label>
+        <span class="for-ic"></span>
+      </div>
 
-  <label for="mail" >Telephone</label>
-  <input type="email" name="mail" id="mail" >
- </div>
-  <!-- autofocus может быть только на одном элементе страницы -->
-<div role="group" class="group">
-  <h2 class="group-title">Тема доклада</h2>
-  <input type="checkbox" name="topic" value="" id="html"  autofocus >
-  <label for="html">HTML</label>
-<!-- autocomplete разрешает или запрещает автозаполнение, значения on, off, 
-т.е вводить ранее введеные значения -->
-   <input type="checkbox" name="topic" value="" id="css" autocomplete="on" >
-  <label for="css">CSS</label>
+      <!--  Не получилось сделать -->
+      <label for="mail" class="form-fiel">
+        <input type="email" name="mail" class="form-inpu" placeholder=" "
+      /></label>
+      <span class="for-labe">E-mail</span>
+      <span class="for-icc"></span>
 
-    <input type="checkbox" name="topic" value="" id="js">
-  <label for="js">JavaScript</label>
-</div>
-<!--  при checked будет активен маркер -->
-<div role="">
-<input type="radio" name="experience" value="junior" id="junior" checked>
-<label for="junior">Junior</label>
+      <ul class="form-checbo">
+        <li>
+          <label class="checkbo-label" for="html">
+            <input
+              class="checkbo"
+              type="checkbox"
+              name="topic"
+              value="html"
+            /><span class="checkbo-icon"></span>HTML
+          </label>
+        </li>
+        <li>
+          <label class="checkbo-label" for="css">
+            <input
+              class="checkbo"
+              type="checkbox"
+              name="topic"
+              value="css"
+            /><span class="checkbo-icon"></span>CSS
+          </label>
+        </li>
+        <li>
+          <label class="checkbo-label" for="js">
+            <input
+              class="checkbo"
+              type="checkbox"
+              name="topic"
+              value="js"
+            /><span class="checkbo-icon"></span>JavaScript
+          </label>
+        </li>
+      </ul>
 
-<input type="radio" name="experience" value="middle" id="middle">
-<label for="middle">Middle</label>
-
-<input type="radio" name="experience" value="senior" id="senior">
-<label for="senior">Senior</label>
-</div>
-
-<label for="date">Data doclad</label>
-<input type="datetime-local" name="data" id="date" min="2020-04-:12T10:00" min="2020-04-:12T17:00">
-</br>
-
-<label for="pdf">Загрузите копию доклада в pdf</label>
-<input type="file" name="pdf" id="pdf">
-</br>
-<!-- textarea создает многострочное текстовое поле -->
-<label for="comment">Comment</label>
-<textarea name="comment" id="comment"  rows="10" placeholder="Уточните детали"></textarea>
-</br>
-
-<input type="checkbox" name="" id="policy">
-<label for="policy">Соглашаюсь на все</label>
-</br>
-
-<button type="submit">Submit</button>
-</form>
+      <button type="submit">Open</button>
+    </form>
 
     <script src="./js/modal.js"></script>
-
   </body>
 </html>

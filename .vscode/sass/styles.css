@@ -1,5 +1,4 @@
 :root {
-  /* --primary-text-color:rgba 0,0,0,0.8; */
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-color: #757575;
@@ -43,7 +42,6 @@ img {
 }
 
 .section {
-  /* padding-top: 0; */
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -279,10 +277,7 @@ img {
 .cards:hover .portfolio-overlay {
   transform: translateY(0%);
 }
-.cards:hover .cards-text {
-  /* opacity: 1;
-  top: 0%; */
-}
+
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -843,9 +838,6 @@ img {
   }
 }
 
-/* .content:hover.content-circle {
-  animation-play-state: paused;
-} */
 .btn {
   position: relative;
   display: inline-block;
@@ -1005,9 +997,7 @@ img {
 .form-comment-field {
   margin-top: 12px;
 }
-.form-check-field {
-  /* display: flex; */
-}
+
 .comment-label {
   color: var(--secondary-color);
   font-weight: 400;
@@ -1227,33 +1217,163 @@ img {
 }
 
 .form {
-  width: 600px;
-  outline: 1px solid tomato;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
+  width: 600px;
 }
-.fofm-field {
-  outline: 1px solid teal;
-  margin-bottom: 10px;
+.form-fiel {
+  display: block;
+  position: relative;
+  margin-bottom: 40px;
+}
 
-  display: flex;
-  flex-direction: column;
-}
-.fofm-field input {
+.form-inpu {
+  width: 100%;
   margin: 0;
-  padding: 6px 10px;
+  padding: 10px 20px;
+  padding-left: 30px;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid tomato;
 }
-.fofm-field label {
-  margin-bottom: 5px;
+.form-inpu:focus + .form-labe,
+.form-inpu:not(:placeholder-shown) + .form-labe {
+  transform: translateY(-50px) translateX(-70%);
 }
-.fofm-field input::placeholder {
-  color: green;
+.form-labe {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  transition: transform 500ms var(--timing-function);
 }
-.group {
+.for-icon {
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
 }
-.group-title {
-  margin-top: 0;
-  margin-bottom: 20px;
+.form-inpu:focus ~ .for-icon {
+  fill: violet;
+}
+.for-ico {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  background-color: yellowgreen;
+}
+
+.form-inpu:focus ~ .for-ico {
+  background-color: red;
+}
+
+.for-ic {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  background-color: blue;
+}
+.for-icc {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 49px;
+  transform: translateY(-50%);
+  background-color: yellow;
+}
+
+.form-fiel:focus-within > .for-ic {
+  background-color: green;
+}
+
+/* .checkbo {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+} */
+
+/* .checkbo {
+  appearance: none;
+  position: absolute;
+} */
+/* .checkbo-label::after {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  border: 2px solid tomato;
+  border-radius: 4px;
+  background-color: yellowgreen;
+} */
+
+.checkbo:checked + .checkbo-icon {
+  background-color: violet;
+  background-image: url(../images/sprite.svg#icon-icon-check-4k);
+  background-size: contain;
+  background-origin: border-box;
+}
+.checkbo-label {
+  outline: 1px solid blue;
+  display: inline-block;
+}
+.checkbo-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: coral;
+}
+
+/* makeev */
+
+.optials {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.cheks {
+  padding-left: 1.2em;
+}
+.cheks_input {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.check__box {
+  position: absolute;
+  width: 0.6em;
+  height: 0.6em;
+  box-shadow: 0 0 0 0.1em blue;
+  border-radius: 0.05em;
+  margin-left: -1em;
+  margin-top: 0.2em;
+  background-color: white;
+}
+
+/* checked */
+.cheks_input:checked + .check__box {
+  background-color: blue;
+  background-image: url(../images/check.svg);
+}
+
+/* focus */
+.cheks_input:focus + .check__box {
+  box-shadow: 0 0 0 0.1em #4a90e2, 0 0 0 0.2em #7ed321;
+}
+.cheks_input:disabled + .check__box {
+  box-shadow: 0 0 0 0.1em #989898;
+}
+.cheks_input:checked:disabled + .check__box {
+  background-color: #989898;
+}
+
+.body {
+  background-color: aqua;
 }
